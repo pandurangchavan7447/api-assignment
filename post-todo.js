@@ -24,3 +24,6 @@ const studentData={
 
 }
 xhr.send(JSON.stringify(studentData));
+/*
+"First, I create an XMLHttpRequest object. Then I use the open() method with the POST method and API URL. I set the Content-Type header to application/json because I'm sending JSON data. I create the request body as a JavaScript object and convert it into a JSON string using JSON.stringify(). Then I send it using xhr.send(). In the onload callback, I check the HTTP status and parse the response using JSON.parse()."
+*/
